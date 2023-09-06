@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+#menu {
+    display: flex;                                    
+    list-style: none;                                
+    padding: 25px;
+    justify-content: center;
+    margin-bottom: 25px;
+
+}
+
+
+#menu a {
+    color: rgb(255, 255, 255);                  
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 15px;                            
+    text-decoration: none;                    
+    flex-direction: row;                      
+    margin: 19px;  
+    text-transform: uppercase;
+}
+
+
+
+/* Ao passar o mouse */
+#menu a:hover {
+    color: rgb(188, 90, 198);
+}
+
+
+header {
+    background: linear-gradient(
+        90deg,
+        rgba(117, 41, 165, 1) 0%,
+        rgba(8, 0, 43, 1) 76%
+      );
+      padding-bottom: 15px;
+}
+
+.apresentacao {
+    display: flex;
+}
+
+h1,span {
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 170%;  /* Define a altura da linha em relação à próxima */
+}
+
+h2 {
+    font-size: 18px;
+    color: rgb(241, 241, 241);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.right {
+    flex: 5;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.left {
+    flex: 5;
+    text-align: center;
+
+}
+
+.btn {
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 6px;
+    border-radius: 5px;
+    
+}
+
+.btnContact {
+    background:rgb(234, 213, 254);
+    color: black;
+    margin-top: 20px;
+}
+
+.btnContact:hover {
+    background:rgb(62, 6, 116);
+    color: white;
+}
+#containerServicos {
+    background: rgb(13, 3, 17);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.itemServico1, .itemServico3 {
+    border: 1px solid purple;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 40px 20px;
+    text-align: center;
+    width: 20%;
+}
+.itemServico2, .itemServico4 {
+    border: 1px solid rgb(4, 192, 199);
+    border-radius: 5px;
+    margin: 15px;
+    padding: 40px 20px;
+    text-align: center;
+    width: 20%;
+}
+#containerServicos h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+#containerServicos img{
+    width: 60px;
+}
+
+.itemServico1:hover, .itemServico3:hover {
+    background: rgba(50, 0, 68, 0.452);
+    cursor: pointer;
+}
+.itemServico2:hover, .itemServico4:hover {
+    background: rgba(0, 120, 141, 0.548);
+    cursor: pointer;
+    
+} 
+html {
+    scroll-behavior: smooth;
+}   
+
